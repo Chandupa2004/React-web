@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .Hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(34, 34, 34, 0.7),rgba(0, 0, 0, 0.7)), url(../../assets/Hero.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+  }
+  .Hero h1 {
+    font-size: 2.5em;
+    margin: 400px;
+    margin-bottom: 30px;
+  }
+ 
+  .Hero h2 {
+    font-size: 1.8em;
+  }
+  
+
+  .btn {
+    background-color: #ff5e01;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(5px);
+    color: #ff5e01;
+    background-color:#000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
